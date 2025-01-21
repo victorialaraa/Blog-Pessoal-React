@@ -1,12 +1,12 @@
-import { FacebookLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
+import { FacebookLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react';
 
 function Footer() {
 
-    let data = new Date().getFullYear()
+    let data = new Date().getFullYear();
 
     return (
         <>
-            <div className="flex justify-center bg-indigo-900 text-white">
+            <div className="flex justify-center bg-gray-800 text-gray-50">
                 <div className="container flex flex-col items-center py-4">
                     <p className='text-xl font-bold'>
                             Blog Pessoal Generation | Copyright: {data}
@@ -20,7 +20,7 @@ function Footer() {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default Footer
+export default Footer;

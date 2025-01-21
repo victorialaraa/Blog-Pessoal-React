@@ -1,10 +1,8 @@
-
 function Navbar() {
     return (
         <>
-            <div className='w-full flex justify-center py-4
-            			   bg-indigo-900 text-white'>
-            
+            <div className='w-full flex justify-center py-4 bg-gray-800 text-gray-50'>
+                
                 <div className="container flex justify-between text-lg pr-4 pl-4">
                     Blog pessoal
 
@@ -18,7 +16,7 @@ function Navbar() {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;
